@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+#card{
+    border-radius: 8px;
+    height: 320px;
+    width: 250px;
+    background-color: #fff;
+    padding: 30px;
+}
+#card img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+#text-div{
+    padding-top: 2vh;
+    text-align: center;
+}
+#text-div h2{
+    padding-top: 2vh;
+    color: red;
+}
+#button-div{
+    padding-top: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn-2{
+    background-color: rgb(133, 185, 133);
+    padding: 6px;
+    border-color: transparent;
+    border-radius:6px;
+
+}
+button{
+    cursor: pointer;
+}
