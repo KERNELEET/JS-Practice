@@ -29,10 +29,29 @@ function Add() {
                 editInput.replaceWith(taskText);
             });
         });
+
+        let search = document.getElementById("search");
+
+search.addEventListener("input", function () {
+    let filter = search.value.toLowerCase();
+    let tasks = document.querySelectorAll(".text ul");
+
+    tasks.forEach(function (task) {
+        let taskText = task.querySelector(".task-text").textContent.toLowerCase();
+        if (taskText.includes(filter)) {
+            task.style.display = "";
+        } else {
+            task.style.display = "none";
+        }
+    });
+});
+
+
         newEle.querySelector("i").addEventListener("click", function () {
             newEle.remove();
         });
 
         inputs.value = "";
     }
+    
 }

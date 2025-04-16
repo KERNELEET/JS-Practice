@@ -44,3 +44,7 @@ body{
     right: 10px;
     cursor: pointer;
  }
+ #search{
+   width: 40vw;
+   margin-bottom:10px ;
+}
