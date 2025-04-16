@@ -45,6 +45,11 @@ body{
     cursor: pointer;
  }
  #search{
-   width: 40vw;
-   margin-bottom:10px ;
+   position: relative;
+   right: 30px;
+   width: 270px;
+   margin-bottom: 10px;
+}
+h1{
+   font-weight: bolder;
 }
