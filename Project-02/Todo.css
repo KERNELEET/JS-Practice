@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(4, 29, 29);
+    background-color: rgba(175, 241, 186, 0.521);
     font-family: 'Poppins', sans-serif;
  }
  .container{
     width: 360px;
     padding: 33px;
     text-align: center;
-    background-color: #fff;
+    background-color: #f8e6d1;
     margin-left: 33%;
     margin-top: 5px;
  }
